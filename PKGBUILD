@@ -8,8 +8,8 @@
 pkgbase=grub-theme-live
 pkgname=('grub-theme-live-common' 'grub-theme-live-manjaro' 'grub-theme-manjaro')
 pkgver=20.2
-pkgrel=5
-_commit=a089dff1c8a1e3047e6ba2ec6ff2856fc8aca2f1
+pkgrel=10
+_commit=8887ab91b1e0309ba55b5cd9ec7d445c202b9446
 
 pkgdesc='Manjaro Linux grub theme'
 arch=('any')
