@@ -14,10 +14,6 @@ cat << _EOF
 _EOF
 }
 
-post_upgrade() {
-        post_install
-}
-
 post_remove() {
 cat << _EOF
 
