@@ -7,13 +7,13 @@
 pkgbase=grub-theme-live
 pkgname=('grub-theme-live-common' 'grub-theme-live-manjaro' 'grub-theme-manjaro')
 pkgver=20.2
-pkgrel=15
+pkgrel=16
 pkgdesc="Manjaro Linux grub theme"
 arch=('any')
 url="https://gitlab.manjaro.org/artwork/branding/grub-theme"
 license=('GPL')
 makedepends=('git')
-_commit=631beb08a9bf6bc046b7409d009aa7f2ef32deb3
+_commit=e3664f8bd83e35ad6db1e53963bffb9719bd4760
 source=("git+$url.git#commit=$_commit")
 sha256sums=('SKIP')
 
