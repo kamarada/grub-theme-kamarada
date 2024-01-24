@@ -11,7 +11,7 @@ pkgrel=16
 pkgdesc="Manjaro Linux grub theme"
 arch=('any')
 url="https://gitlab.manjaro.org/artwork/branding/grub-theme"
-license=('GPL')
+license=('GPL-3.0-or-later')
 makedepends=('git')
 _commit=e3664f8bd83e35ad6db1e53963bffb9719bd4760
 source=("git+$url.git#commit=$_commit")
