@@ -15,7 +15,7 @@ license=('GPL-3.0-or-later')
 makedepends=('git')
 _commit=e3664f8bd83e35ad6db1e53963bffb9719bd4760
 source=("git+$url.git#commit=$_commit")
-sha256sums=('SKIP')
+sha256sums=('fa11abadc31868c294ab9537965cbdc25b462d63f22cc051046d23b69cbd5418')
 
 package_grub-theme-live-common() {
   pkgdesc+=" for live ISO (common files)"
