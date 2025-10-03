@@ -7,16 +7,21 @@
 
 pkgbase=grub-theme-kamarada-src
 pkgname=('grub-theme-live-common' 'grub-theme-live-kamarada' 'grub-theme-kamarada')
-pkgver=20.2
-pkgrel=16
+pkgver=20251003
+pkgrel=1
 pkgdesc="Linux Kamarada GRUB theme"
 arch=('any')
 url="https://github.com/kamarada/grub-theme-kamarada-src"
 license=('GPL-3.0-or-later')
 makedepends=('git')
-_commit=4fd6761d889cd49e8a815f71696f31d1d576b7da
+_commit=bc4b12e4a4becf4864d7b6332197d121a72ff26b
 source=("git+$url.git#commit=$_commit")
 sha256sums=('SKIP') # TODO
+
+pkgver() {
+  cd "$pkgbase"
+  git show -s --format=%cd --date=format:%Y%m%d HEAD
+}
 
 package_grub-theme-live-common() {
   pkgdesc+=" for live ISO (common files)"
